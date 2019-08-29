@@ -1,0 +1,6 @@
+<input #inputElementRef class="form-control" [value]="text" (keyup.enter)="addItem($event.target.value)">
+
+<button class="btn btn-primary" (click)="addItem(inputElementRef.value)">
+    Save
+</button>
+

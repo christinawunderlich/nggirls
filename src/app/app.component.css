@@ -1,0 +1,27 @@
+h1 {
+  background-image: url("https://source.unsplash.com/random");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
+  padding: 200px;
+  color: black;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none
+}
+
+.list-text {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

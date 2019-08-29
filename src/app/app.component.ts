@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TodoListService } from './services/todo-list.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+
+  todoList: any[];
+
+  constructor(todoListService: TodoListService) {
+   this.todoList = todoListService.getTodoList();
+  }
 }
+
